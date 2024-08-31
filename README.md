@@ -39,15 +39,7 @@ OpenCV is been used for gathering the images from webcam and feed them into a De
 * **Step 4:** The CNN classifier will categorize whether eyes are open or closed.
 * **Step 5:** Calculate score to check whether the person is drowsy(If the eyes are close for above 20 seconds the alarm will ring).
 
-## Results
 
-* Prediction: Eyes Open, No alarm
-
-![alt text](https://github.com/vikasbhadoria69/drowsiness_detection_MachineLearning_ComputerVision/blob/master/Images/Screenshot%202021-01-27%20030835.png)
-
-* Prediction: Eyes Closed, if the score is greater than 20. Rings an alarm
-
-![alt text](https://github.com/vikasbhadoria69/drowsiness_detection_MachineLearning_ComputerVision/blob/master/Images/Screenshot%202021-01-27%20031004.png)
 
 ## Codes: 
 "Mpdel.py" contains the code used to build the CNN classifier model.
